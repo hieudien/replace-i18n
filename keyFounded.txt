@@ -1,0 +1,306 @@
+undefined../../HM/hm-frontend/components/Account/EditShippingAddress.vue
+	 $t('Edit') 
+	 $t('City') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('State/Province') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Country') 
+	 $t('Cancel') 
+../../HM/hm-frontend/components/Account/LoginRegisterForm.vue
+	 $t('Password') 
+	 $t('Login') 
+../../HM/hm-frontend/components/Account/Order.vue
+	 $t('Order Number') 
+	 $t('Order Status') 
+	 $t('Order Date') 
+	 $t('Tracking') 
+	 $t('Shipping method') 
+	 $t('Method') 
+	 $t('Method') 
+	 $t('Card Type') 
+	 $t('Last 4') 
+	 $t('Not have payment methods') 
+	 $t('Edit') 
+	 $t('Billing information') 
+	 $t('Summary') 
+	 $t('Subtotal') 
+	 $t('Tax') 
+	 $t('Discount') 
+	 $t('Grand Total') 
+	 $t('Cancel') 
+../../HM/hm-frontend/components/Account/OrderItems.vue
+	 $t('Product') 
+	 $t('Qty') 
+	 $t('Price') 
+	 $t('Discount') 
+	 $t('SKU') 
+	 $t('Sold out') 
+../../HM/hm-frontend/components/Account/RegisterForm.vue
+	 $t('Password') 
+	 $t('Password') 
+../../HM/hm-frontend/components/Account/LoginForm.vue
+	 $t('Password') 
+	 $t('Login') 
+../../HM/hm-frontend/components/Account/Shipment.vue
+	 $t('Parcel') 
+	 $t('Item shipped') 
+	 $t('SKU') 
+	 $t('Details') 
+../../HM/hm-frontend/components/Cart/CartItems.vue
+	 $t('Item') 
+	 $t('Price') 
+	 $t('Qty') 
+	 $t('Subtotal') 
+	 $t('SKU') 
+	 $t('Checkout') 
+../../HM/hm-frontend/components/Cart/Estimate.vue
+	 $t('Country') 
+	 $t('State/Province') 
+../../HM/hm-frontend/components/Cart/SaveForLaterItems.vue
+	 $t('In Stock') 
+	 $t('Unavailable') 
+	 $t('Sold out') 
+	 $t('Delete') 
+../../HM/hm-frontend/components/Catalog/Product/Sections/AddToShoppingList.vue
+	 $t('Save') 
+../../HM/hm-frontend/components/Catalog/Product/Sections/IngredientDetail.vue
+../../HM/hm-frontend/components/Catalog/Product/Sections/ModalShoppingList.vue
+	 $t('Back') 
+	 $t('Save') 
+	 $t('Create') 
+../../HM/hm-frontend/components/Catalog/Product/Sections/ProductButtonActions.vue
+../../HM/hm-frontend/components/Catalog/Product/Sections/ProductReview.vue
+../../HM/hm-frontend/components/Catalog/Product/Sections/ShoppingList.vue
+../../HM/hm-frontend/components/Catalog/Product/Sections/Sticky.vue
+	 $t('Unavailable') 
+	 $t('Sold out') 
+../../HM/hm-frontend/components/Catalog/Product/Sections/TabsInfoProduct.vue
+../../HM/hm-frontend/components/Catalog/Product/Templates/Default.vue
+	 $t('SKU') 
+	 $t('Sold out') 
+../../HM/hm-frontend/components/Catalog/Product/Templates/Kit.vue
+	 $t('SKU') 
+../../HM/hm-frontend/components/Catalog/Product/Templates/Grouped.vue
+../../HM/hm-frontend/components/Catalog/Product/Templates/SubKit.vue
+../../HM/hm-frontend/components/Catalog/Product/Templates/Variable.vue
+../../HM/hm-frontend/components/Catalog/Product/Views/CardProduct.vue
+	 $t('Unavailable') 
+	 $t('Unavailable') 
+	 $t('Sold out') 
+	 $t('Sold out') 
+../../HM/hm-frontend/components/Catalog/Product/Views/CustomerReviewProduct.vue
+../../HM/hm-frontend/components/Catalog/Product/Views/Image.vue
+../../HM/hm-frontend/components/Checkout/GuestCheckout.vue
+	 $t('Email') 
+	 $t('Email Address') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Password') 
+	 $t('Password') 
+	 $t('Password') 
+	 $t('Billing address') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Email') 
+	 $t('Shipping method') 
+	 $t('Shipping address') 
+	 $t('Billing address') 
+	 $t('Back') 
+../../HM/hm-frontend/components/Checkout/MemberCheckout.vue
+	 $t('Create new address') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Cancel') 
+	 $t('Billing address') 
+	 $t('Create new address') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Cancel') 
+	 $t('Email') 
+	 $t('Shipping method') 
+	 $t('Shipping address') 
+	 $t('Billing address') 
+	 $t('Back') 
+../../HM/hm-frontend/components/Checkout/PaymentSummary.vue
+	 $t('Subtotal') 
+	 $t('Discount') 
+	 $t('Handling') 
+	 $t('Tax') 
+	 $t('Total') 
+../../HM/hm-frontend/components/GlobalComponent/BreadCrumb.vue
+../../HM/hm-frontend/components/GlobalComponent/CatalogSort.vue
+../../HM/hm-frontend/components/GlobalComponent/DisplayAddress.vue
+../../HM/hm-frontend/components/GlobalComponent/FilterCategory.vue
+	 $t('From') 
+../../HM/hm-frontend/components/GlobalComponent/GiftKitFrequencyOption.vue
+../../HM/hm-frontend/components/GlobalComponent/Header/Search.vue
+	 $t("See all results") 
+../../HM/hm-frontend/components/GlobalComponent/Header/StoreSection.vue
+	 $t('Cart Subtotal') 
+	 $t('View and edit cart') 
+	 $t('You have no items in your shopping cart') 
+../../HM/hm-frontend/components/GlobalComponent/NewsLetter.vue
+	 $t('Email') 
+../../HM/hm-frontend/layouts/error.vue
+	 $t('An error occurred') 
+	 $t('An error occurred') 
+	 $t('Page not found') 
+../../HM/hm-frontend/layouts/store.vue
+	 $t('Quantity Added') 
+../../HM/hm-frontend/mixins/index.js
+../../HM/hm-frontend/mixins/list.js
+../../HM/hm-frontend/pages/account/address-book.vue
+	 $t('My Account') 
+	 $t('Address Book') 
+	 $t('Address Book') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Cancel') 
+	 $t('Save') 
+../../HM/hm-frontend/pages/account/dashboard.vue
+	 $t('My Account') 
+	 $t("My Account") 
+	 $t("Address Book") 
+	 $t("Payment Information") 
+../../HM/hm-frontend/pages/account/login-method.vue
+	 $t('My Account') 
+	 $t('Email') 
+../../HM/hm-frontend/pages/account/ordered-products.vue
+	 $t('My Account') 
+	 $t('In Stock') 
+	 $t('Out of Stock') 
+../../HM/hm-frontend/pages/account/orders/_id/index.vue
+	 $t('My Account') 
+../../HM/hm-frontend/pages/account/orders/index.vue
+	 $t('My Account') 
+	 $t('Order') 
+	 $t('Total') 
+	 $t('Status') 
+	 $t('Status') 
+../../HM/hm-frontend/pages/account/orders/_id/tracking.vue
+	 $t('Tracking') 
+../../HM/hm-frontend/pages/account/payment.vue
+	 $t('My Account') 
+	 $t('Edit') 
+	 $t('City') 
+	 $t('City') 
+	 $t('State/Province') 
+	 $t('Country') 
+	 $t('Cancel') 
+	 $t('Save') 
+../../HM/hm-frontend/pages/account/personal-allergy.vue
+	 $t('My Account') 
+../../HM/hm-frontend/pages/account/save-for-later.vue
+	 $t('My Account') 
+	 $t('In Stock') 
+	 $t('Unavailable') 
+	 $t('Out of Stock') 
+	 $t('Continue shopping') 
+../../HM/hm-frontend/pages/account/shopping-list/index.vue
+	 $t('My Account') 
+	 $t('Continue shopping') 
+	 $t('Sold out') 
+	 $t('Sold out') 
+	 $t('Create') 
+../../HM/hm-frontend/pages/account/settings.vue
+	 $t('My Account') 
+	 $t('Email') 
+	 $t('Email') 
+	 $t('Date of Birth') 
+	 $t('Gender') 
+	 $t('Change Password') 
+	 $t('Current Password') 
+	 $t('Current Password') 
+	 $t('New Password') 
+	 $t('New Password') 
+	 $t('Confirm New Password') 
+	 $t('Confirm New Password') 
+../../HM/hm-frontend/pages/account/shopping-list/index/_id.vue
+	 $t('In Stock') 
+	 $t('Unavailable') 
+	 $t('Out of Stock') 
+../../HM/hm-frontend/pages/brands/_slug.vue
+	 $t('Email') 
+../../HM/hm-frontend/pages/brands/index.vue
+../../HM/hm-frontend/pages/checkout/cart.vue
+	 $t('Checkout') 
+	 $t('Summary') 
+	 $t('Subtotal') 
+	 $t('Discount') 
+	 $t('Shipping') 
+	 $t('Handling') 
+	 $t('Tax') 
+	 $t('Grand Total') 
+	 $t('Check Out with Multiple Addresses') 
+	 $t('Apply discount') 
+	 $t('Summary') 
+	 $t('Subtotal') 
+	 $t('Discount') 
+	 $t('Shipping') 
+	 $t('Handling') 
+	 $t('Tax') 
+	 $t('Grand Total') 
+	 $t('Check Out with Multiple Addresses') 
+	 $t('Continue shopping') 
+../../HM/hm-frontend/pages/checkout/index.vue
+	 $t('Continue shopping') 
+../../HM/hm-frontend/pages/checkout/success.vue
+	 $t('Order Number') 
+../../HM/hm-frontend/pages/faq.vue
+../../HM/hm-frontend/pages/ingredients/_slug.vue
+../../HM/hm-frontend/pages/ingredients/index.vue
+../../HM/hm-frontend/pages/product-replacements/b2bclients.vue
+	 $t('Products Blocked') 
+../../HM/hm-frontend/pages/product-replacements/index.vue
+	 $t('Order Lookup') 
+	 $t('Email Address') 
+	 $t('Order Number') 
+	 $t('Unrecognized Order Number') 
+	 $t('Products Blocked') 
+	 $t('Order Information') 
+	 $t('Replacement Detail') 
+	 $t('Product to Replace') 
+	 $t('Reason for Replacement') 
+	 $t('Message') 
+	 $t('Use Address from Order') 
+	 $t('First name') 
+	 $t('Last name') 
+	 $t('Street Address') 
+	 $t('Telephone') 
+	 $t('Company') 
+	 $t('Country') 
+	 $t('State/Province') 
+	 $t('City') 
+	 $t('Zip/Postal Code') 
+	 $t('Product Replacements') 
+../../HM/hm-frontend/pages/product-review/index.vue
+../../HM/hm-frontend/pages/product/_id.vue
+../../HM/hm-frontend/pages/reset-password.vue
+	 $t('New Password') 
+	 $t('New Password') 
+	 $t('Confirm New Password') 
+	 $t('Confirm New Password') 
+../../HM/hm-frontend/pages/search.vue
+../../HM/hm-frontend/pages/verify-email.vue
+../../HM/hm-frontend/views/layouts/HeaderMobile.vue
+../../HM/hm-frontend/views/layouts/SearchMobile.vue
+	 $t('See all results') 
+../../HM/hm-frontend/views/pages/category.vue
+../../HM/hm-frontend/views/pages/product-gift-kit v2.vue
+../../HM/hm-frontend/views/pages/product-gift-kit.vue
+	 $t("Sold out") 
+../../HM/hm-frontend/views/pages/product.vue
+	 $t('Sold out') 

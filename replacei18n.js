@@ -3,15 +3,24 @@ const glob = require("glob")
 const path = require('path')
 
 const frontendPath = '../../HM/hm-frontend'
+// const frontendPath = '../hm-frontend'
 
 let fileList = []
 
 process.on('exit', async () => {
   console.log({fileCounter, toWriteCounter , doneCounter, replaced: matched})
-  fs.writeFileSync('en.json', JSON.stringify(json), (err) => {
-    if (err) return console.log(filePath, err);
-    console.log(' Write Done: boilerplate.json')
-  });
+  // fs.writeFileSync('en.json', JSON.stringify(json), (err) => {
+  //   if (err) return console.log(filePath, err)
+  //   console.log(' Write Done: en.json')
+  // })
+  fs.writeFileSync('keyNotFound.txt', keyNotFound, (err) => {
+    if (err) return console.log(filePath, err)
+    console.log(' Write Done: eport.txt')
+  })
+  fs.writeFileSync('keyFounded.txt', keyFounded, (err) => {
+    if (err) return console.log(filePath, err)
+    console.log(' Write Done: eport.txt')
+  })
 })
 
 getDirectories(frontendPath, function (err, res) {
@@ -39,16 +48,20 @@ function readFiles (filePaths, onFileContent) {
     })
   })
 }
-let fileCounter = 0;
-let doneCounter = 0;
-let toWriteCounter = 0;
-let matched = 0;
+let fileCounter = 0
+let doneCounter = 0
+let toWriteCounter = 0
+let matched = 0
+let keyNotFound
+let keyFounded
 function replacei18n (filePath, content) {
   if (!content.includes("$t(")) {
     return
   }
   fileCounter++
   if (path.basename(filePath) /*=== 'EditShippingAddress.vue'*/) {
+    keyNotFound += filePath + '\n'
+    keyFounded += filePath + '\n'
     const originalContent = content.toString()
     let i18nContent = content.split('\n').filter((line) => line.includes("$t("))
     const jsonInArray = nestedObjectToArray(json)
@@ -80,7 +93,7 @@ function replacei18n (filePath, content) {
           return
         }
         if (json[value]) {
-          console.log(value, json[value]);
+          console.log(value, json[value])
           return
         }
         matched++
@@ -91,13 +104,17 @@ function replacei18n (filePath, content) {
           key = key.replace(/@/g, '.')
           const newLine = line.replace(value, key)
           content = content.replace(line, newLine)
+          keyFounded += `\t ${line} \n`
         } else if (jsonLine.length === 0) {
-          const newKey = value.trim().toLowerCase().replace(/[^a-zA-Z0-9 ]/g, "").replace(/ /g, '_')
-          json[newKey] = value
-          const newLine = line.replace(value, newKey)
-          content = content.replace(line, newLine)
+          // report 
+          keyNotFound += `\t ${line} \n`
+
+          // const newKey = value.trim().toLowerCase().replace(/[^a-zA-Z0-9 ]/g, "").replace(/ /g, '_')
+          // json[newKey] = value
+          // const newLine = line.replace(value, newKey)
+          // content = content.replace(line, newLine)
         } else {
-          console.log('Smt wroong to json line =============================', filePath);
+          console.log('Smt wroong to json line =============================', filePath)
         }
       }
     })
@@ -105,9 +122,9 @@ function replacei18n (filePath, content) {
       toWriteCounter++
       // write file
       fs.writeFile(filePath, content, (err) => {
-        if (err) return console.log(filePath, err);
+        if (err) return console.log(filePath, err)
         doneCounter++
-      });
+      })
     }
   }
 }
@@ -138,6 +155,7 @@ function nestedObjectToArray(obj) {
 
 const json = {
   "$": "$",
+  "login": "Login",
   "dashboard": {
     "my_account": {
       "_": "Account Information",
